@@ -1,0 +1,143 @@
+/* font link imported from Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+/* styling the main App class font and alignment */
+.App {
+  font-family: "Josefin Sans", cursive;
+  text-align: center;
+}
+.Error404 {
+  background-image: "404-error-page.png";
+  width: 100%;
+  height: 100%;
+}
+.hButton {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  text-color: black;
+  background-color: #1da54a;
+}
+/* styling for "Deal Cards" button on /Game page */
+.dealButton {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  border-radius: 8px;
+}
+/* styling "Player Stand" "Player Hit" and "New Game" buttons on /Game page */
+.buttons {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  border-radius: 8px;
+}
+/* styling for player hand total and text on /Game page */
+.player {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  color: powderblue;
+}
+/* styling the players cards on /Game page */
+.playersCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+/* styling the dealers hand total and text on /Game page */
+.dealer {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  color: powderblue;
+}
+/* styling the dealers cards on /Game page */
+.dealersCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: -30px;
+}
+/* styling the game result text on /Game page */
+.gameDecision {
+  color: powderblue;
+  text-decoration: underline;
+}
+/* styling the background of all pages of the application */
+body {
+  font-family: "Lucida Sans Unicode";
+  background: #35654d;
+  background: -webkit-linear-gradient(to left, #0b7c0b, #c4e0e5);
+  background: linear-gradient(to left, #0b7c0b, #044d08);
+}
+/* styling the navigation bar */
+.navbar,
+.navbar-default {
+  background-image: linear-gradient(
+    to bottom,
+    #0a6916 0,
+    #dfe8e9 100%
+  ) !important; /* override background image gradient w/ flat color */
+}
+/* Styling for first text box on About page */
+.col-sm {
+  background: #97b8a7;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+/* Styling for second text box on About page */
+.col-sm2 {
+  background: #97b8a7;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+/* Styling for third text box on About page */
+.col-sm3 {
+  background: #97b8a7;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-radius: 8px;
+}
+/* styling for main container on About page */
+.container {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+/* styling for About page */
+.row {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+/* styling for "Play BlackJack" button on Home page */
+.play-button {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Josefin Sans", cursive;
+  font-size: 25px;
+}
