@@ -17,7 +17,7 @@ class Home extends Component {
               to="/Game"
               style={{ color: "inherit", textDecoration: "inherit" }}
             >
-              <h1> Play BlackJack</h1>
+              <h1> Play BlackJack21</h1>
             </Link>
           </button>
         </div>
