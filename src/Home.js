@@ -2,7 +2,7 @@ import React, { Component } from "react";
 // import reference to Header file containing navigation bar
 import Header from "./Header.js";
 // import reference to homepage image from Images folder
-import images from "./Images/aces.png";
+import images from "./assets/aces.png";
 // import Link feature from react-router-dom package, allows link to "/Game" page
 import { Link } from "react-router-dom";
 

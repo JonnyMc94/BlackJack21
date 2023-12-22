@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import reference to Header file containing navigation bar
 import Header from "./Header.js";
-import error from "./Images/404-error-page.png";
+import error from "./assets/404-error-page.png";
 import { Link } from "react-router-dom";
 
 class Error404 extends Component {

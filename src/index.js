@@ -8,7 +8,7 @@ import Home from "./Home";
 import Error404 from "./Error404";
 import "bootstrap/dist/css/bootstrap.css";
 // import necessary features from react-router-dom package to allow for page routing
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import reference to app file
 import App from "./App";
 
@@ -17,12 +17,12 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       {/* Switch is used to render each route exclusively, once a route has been found Switch will stop looking for matches and render the first route it matches */}
-      <Switch>
+      <Routes>
         <Route path="/Game" exact component={App} />
         <Route path="/About" exact component={About} />
         <Route path="/" exact component={Home} />
         <Route path="" component={Error404} />
-      </Switch>
+      </Routes>
     </BrowserRouter>
   </React.StrictMode>,
   rootElement
