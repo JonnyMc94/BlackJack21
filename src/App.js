@@ -236,7 +236,7 @@ class App extends Component {
           <button
             button
             type="button"
-            class="btn btn-dark btn-circle btn-xl"
+            className="btn btn-dark btn-circle btn-xl"
             // button will be disabled when cardsDealt is true
             disabled={this.state.cardsDealt}
             // an event listener which on the click of the Deal Cards button will
@@ -252,7 +252,7 @@ class App extends Component {
             <button
               button
               type="button"
-              class="btn btn-dark btn-circle btn-xl"
+              className="btn btn-dark btn-circle btn-xl"
               // button will be disabled when playerHitDisabler is true
               disabled={playerHitDisable}
               // an event listener which on the click of the player stand button will
@@ -267,7 +267,7 @@ class App extends Component {
             <button
               button
               type="button"
-              class="btn btn-dark btn-circle btn-xl"
+              className="btn btn-dark btn-circle btn-xl"
               // button will be disabled when playerHitDisabler is true
               disabled={playerHitDisable}
               // an event listener which on the click of the player hit button
@@ -282,7 +282,7 @@ class App extends Component {
             <button
               button
               type="button"
-              class="btn btn-dark btn-circle btn-xl"
+              className="btn btn-dark btn-circle btn-xl"
               // button will be disabled when when gameBegun is false
               disabled={!this.state.gameBegun}
               // an event listener which on the click of the start new game
@@ -333,7 +333,7 @@ class App extends Component {
                     // reference to image path
                     src={image(c.Image)}
                     // bootstrap responsive image class
-                    class="img-responsive"
+                    className="img-responsive"
                     // this will render the Value property of the object if there
                     // is an issue rendering the image
                     alt={c.Value}
@@ -372,7 +372,7 @@ class App extends Component {
                     // reference to image path
                     src={image(c.Image)}
                     // bootstrap responsive image class
-                    class="img.responsive"
+                    className="img.responsive"
                     // this will render the Value property of the object if there
                     // is an issue rendering the image
                     alt={c.Value}

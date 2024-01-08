@@ -6,14 +6,14 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <h3 class="text-center">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+          <h3 className="text-center">
             {/* clubs icon */}
             <svg
               width="1em"
               height="1em"
               viewBox="0 0 16 16"
-              class="bi bi-suit-club-fill"
+              className="bi bi-suit-club-fill"
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -27,12 +27,12 @@ class Header extends Component {
               width="1em"
               height="1em"
               viewBox="0 0 16 16"
-              class="bi bi-suit-diamond"
+              className="bi bi-suit-diamond"
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M8.384 1.226a.463.463 0 0 0-.768 0l-4.56 6.468a.537.537 0 0 0 0 .612l4.56 6.469a.463.463 0 0 0 .768 0l4.56-6.469a.537.537 0 0 0 0-.612l-4.56-6.468zM6.848.613a1.39 1.39 0 0 1 2.304 0l4.56 6.468a1.61 1.61 0 0 1 0 1.838l-4.56 6.468a1.39 1.39 0 0 1-2.304 0L2.288 8.92a1.61 1.61 0 0 1 0-1.838L6.848.613z"
               />
             </svg>
@@ -43,7 +43,7 @@ class Header extends Component {
               width="1em"
               height="1em"
               viewBox="0 0 16 16"
-              class="bi bi-suit-heart-fill"
+              className="bi bi-suit-heart-fill"
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -54,19 +54,19 @@ class Header extends Component {
               width="1em"
               height="1em"
               viewBox="0 0 16 16"
-              class="bi bi-suit-spade"
+              className="bi bi-suit-spade"
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M8 0a.5.5 0 0 1 .429.243c1.359 2.265 2.925 3.682 4.25 4.882.096.086.19.17.282.255C14.308 6.604 15.5 7.747 15.5 9.5a4 4 0 0 1-5.406 3.746c.235.39.491.782.722 1.131.434.659-.01 1.623-.856 1.623H6.04c-.845 0-1.29-.964-.856-1.623.263-.397.51-.777.728-1.134A4 4 0 0 1 .5 9.5c0-1.753 1.192-2.896 2.539-4.12l.281-.255c1.326-1.2 2.892-2.617 4.251-4.882A.5.5 0 0 1 8 0zM3.711 6.12C2.308 7.396 1.5 8.253 1.5 9.5a3 3 0 0 0 5.275 1.956.5.5 0 0 1 .868.43c-.094.438-.33.932-.611 1.428a29.247 29.247 0 0 1-1.013 1.614.03.03 0 0 0-.005.018.074.074 0 0 0 .024.054h3.924a.074.074 0 0 0 .024-.054.03.03 0 0 0-.005-.018c-.3-.455-.658-1.005-.96-1.535-.294-.514-.57-1.064-.664-1.507a.5.5 0 0 1 .868-.43A3 3 0 0 0 14.5 9.5c0-1.247-.808-2.104-2.211-3.38L12 5.86c-1.196-1.084-2.668-2.416-4-4.424-1.332 2.008-2.804 3.34-4 4.422l-.289.261z"
               />
             </svg>
           </h3>
           {/* burger button to show page links when navigation bar is collapsed */}
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navbarNav"
@@ -74,32 +74,32 @@ class Header extends Component {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
           {/* div wrapping "Home" "Game" "About" links */}
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul className="navbar-nav">
               {/* Home link */}
               <Link to="/">
-                <li class="nav-item  active">
+                <li className="nav-item  active">
               
-                  <a class="nav-link" href="#">
+                  <a className="nav-link" href="#">
                     Home
                   </a>
                 </li>
               </Link>
               {/* Game link */}
               <Link to="/Game">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    Game <span class="sr-only"></span>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
+                    Game <span className="sr-only"></span>
                   </a>
                 </li>
               </Link>
               {/* About link */}
               <Link to="/About">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
                     About
                   </a>
                 </li>
