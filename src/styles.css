@@ -17,6 +17,10 @@
   text-color: black;
   background-color: #1da54a;
 }
+
+.header-text {
+  padding-top: 20px;
+}
 /* styling for "Deal Cards" button on /Game page */
 .dealButton {
   display: flex;
@@ -75,7 +79,7 @@
 /* styling the background of all pages of the application */
 body {
   font-family: "Lucida Sans Unicode";
-  background: #35654d;
+  background: #0b801c;
   background: -webkit-linear-gradient(to left, #0b7c0b, #c4e0e5);
   background: linear-gradient(to left, #0b7c0b, #044d08);
 }
