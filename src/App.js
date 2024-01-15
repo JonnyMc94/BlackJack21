@@ -25,10 +25,10 @@ class App extends Component {
       playerWins: false,
       dealerWins: false,
       draw: false,
-      stand: false
+      stand: false,
     };
   }
-  
+
   // used to calculate total of player/dealer hands
   getCount(cards) {
     const newDeck = [];
@@ -65,7 +65,6 @@ class App extends Component {
   // This function randomly selects a card object from the deck array
   // and adds this card to the player hand array
   playerHit(card) {
-   
     let indexToremove = getRandomInt(deckArray.length);
     var removedCard = deckArray[indexToremove];
     var joined = this.state.playerHand.concat(removedCard);
@@ -172,7 +171,6 @@ class App extends Component {
     }
   }
 
-
   startNewGame(e) {
     window.location.reload();
   }
@@ -188,7 +186,6 @@ class App extends Component {
   }
 
   render() {
-
     let playerHitDisable = false;
     // setting the playerHitDiable variable to be true if all the variables
     // listed in the if statement below are true
@@ -203,7 +200,6 @@ class App extends Component {
     }
 
     const image = (link) => require(`${link}`);
-
 
     let playersHand = this.state.playerHand;
     let dealersHand = this.state.dealerHand;
