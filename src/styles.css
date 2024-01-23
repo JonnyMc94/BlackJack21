@@ -19,7 +19,8 @@
 }
 
 .header-text {
-  padding-top: 20px;
+  padding-top: 5vh;
+  font-size: 5vh;
 }
 /* styling for "Deal Cards" button on /Game page */
 .dealButton {
@@ -80,7 +81,6 @@
 body {
   font-family: "Lucida Sans Unicode";
   background-color: #0b801c!important;
-  display: flex!important;
 }
 /* styling the navigation bar */
 .navbar,
