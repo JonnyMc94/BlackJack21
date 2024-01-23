@@ -79,18 +79,13 @@
 /* styling the background of all pages of the application */
 body {
   font-family: "Lucida Sans Unicode";
-  background: #0b801c;
-  background: -webkit-linear-gradient(to left, #0b7c0b, #c4e0e5);
-  background: linear-gradient(to left, #0b7c0b, #044d08);
+  background-color: #0b801c!important;
+  display: flex!important;
 }
 /* styling the navigation bar */
 .navbar,
 .navbar-default {
-  background-image: linear-gradient(
-    to bottom,
-    #0a6916 0,
-    #dfe8e9 100%
-  ) !important; /* override background image gradient w/ flat color */
+  background-image: #0b801c; /* override background image gradient w/ flat color */
 }
 /* Styling for first text box on About page */
 .col-sm {
@@ -137,11 +132,28 @@ body {
 }
 /* styling for "Play BlackJack" button on Home page */
 .play-button {
-  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   justify-content: center;
   height: 100px;
-  margin-top: 50px;
-  margin-bottom: 50px;
   font-family: "Josefin Sans", cursive;
-  font-size: 25px;
+  font-size: 60px!important;
+  background: none;
+  background:rgba(255,255,255,0.5);
+}
+
+.home-image {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 100vh;
+  height: 70vh;
+  transform: translate(-50%, -50%);
+}
+
+.card-image {
+  width: 100vh;
+  height: 80vh;
 }
